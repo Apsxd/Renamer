@@ -15,15 +15,15 @@ from helper.database import daily as daily_
 from helper.date import check_expi
 import os
 
-CHANNEL = os.environ.get('CHANNEL', "")
+CHANNEL = os.environ.get('CHANNEL', "-1001669902737")
 STRING = os.environ.get("STRING", "BACxmMXVr67xSe2t0E900BwnJDP4PJ1XSsNSRVkG5ZRQSDspNBntw2DZ1J-Wo9ElFc9eJ51s-ewvSR_fPZazickEljrnx1eCrMOmWnibTHbdFovBxCQRCwFZ5_Sf6GUMQA-jyOxJDC-5r04z-ZGqvaJGkr3dPFp4QpCipiwxDgLDfubWTMdC09vq48tmTd1-S_oqbk-nMWLL7iM9n3YaRbr9HeM02A1s3jxt_LXj-ejZWWbFDBm4NRFk6rGr28_GwPIWqoP-ZqOQn5zBZYTv6q9ziyV63fudQbWQSSblcaPcRuqaVcZ-8Slk2JFTjzdpAM5ttPud80VzwqWtzGp_SNtlAAAAAWBtLzUA")
 ADMIN = int(os.environ.get("ADMIN", 5023815012))
-bot_username = os.environ.get("BOT_USERNAME","GangsterBaby_renamer_BOT")
-log_channel = int(os.environ.get("LOG_CHANNEL", ""))
+bot_username = os.environ.get("BOT_USERNAME","Filerenamer_robot")
+log_channel = int(os.environ.get("LOG_CHANNEL", "-1001669902737"))
 token = os.environ.get('TOKEN', "5817904504:AAHfBRRANKN-8tpMG74SGbwvE9N25RR6_zI")
 botid = token.split(':')[0]
 FLOOD = 500
-LAZY_PIC = os.environ.get("LAZY_PIC", "")
+LAZY_PIC = os.environ.get("LAZY_PIC", "https://te.legra.ph/file/b2c3cfb7c946bd5188190.jpg")
 
 
 # Part of Day --------------------
