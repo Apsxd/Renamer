@@ -16,11 +16,11 @@ from helper.date import check_expi
 import os
 
 CHANNEL = os.environ.get('CHANNEL', "")
-STRING = os.environ.get("STRING", "")
-ADMIN = int(os.environ.get("ADMIN", 1484670284))
+STRING = os.environ.get("STRING", "BACxmMXVr67xSe2t0E900BwnJDP4PJ1XSsNSRVkG5ZRQSDspNBntw2DZ1J-Wo9ElFc9eJ51s-ewvSR_fPZazickEljrnx1eCrMOmWnibTHbdFovBxCQRCwFZ5_Sf6GUMQA-jyOxJDC-5r04z-ZGqvaJGkr3dPFp4QpCipiwxDgLDfubWTMdC09vq48tmTd1-S_oqbk-nMWLL7iM9n3YaRbr9HeM02A1s3jxt_LXj-ejZWWbFDBm4NRFk6rGr28_GwPIWqoP-ZqOQn5zBZYTv6q9ziyV63fudQbWQSSblcaPcRuqaVcZ-8Slk2JFTjzdpAM5ttPud80VzwqWtzGp_SNtlAAAAAWBtLzUA")
+ADMIN = int(os.environ.get("ADMIN", 5023815012))
 bot_username = os.environ.get("BOT_USERNAME","GangsterBaby_renamer_BOT")
 log_channel = int(os.environ.get("LOG_CHANNEL", ""))
-token = os.environ.get('TOKEN', '')
+token = os.environ.get('TOKEN', "5817904504:AAHfBRRANKN-8tpMG74SGbwvE9N25RR6_zI")
 botid = token.split(':')[0]
 FLOOD = 500
 LAZY_PIC = os.environ.get("LAZY_PIC", "")
